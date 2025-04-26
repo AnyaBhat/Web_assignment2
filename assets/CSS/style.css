@@ -1,0 +1,51 @@
+:root {
+    --primary: #4B0082; /* Indigo */
+    --secondary: #9370DB; /* Medium Purple */
+    --light: #F5F5F5;
+    --dark: #2C2C2C;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+.navbar {
+    background-color: var(--light) !important;
+}
+
+.navbar-brand, .nav-link.active, .nav-link:hover {
+    color: var(--primary) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary);
+}
+
+.section-title {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.progress-bar {
+    font-weight: bold;
+}
+
+footer {
+    background-color: var(--primary);
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: var(--secondary);
+}
